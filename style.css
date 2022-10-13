@@ -1,0 +1,28 @@
+.red {
+  color: red;
+}
+
+p.blue {
+    color: green;
+}
+
+.blue {
+  color: blue !important;
+}
+
+p {
+  /*p tags have lower priority than classes even if they are lower in the code*/
+  color: black;
+}
+
+#title { /*id tags have an even higher priority*/
+    font-weight: bold;
+}
+section {
+    height: 80vh;
+
+}
+
+.heading.red {
+    color: blue;
+}
